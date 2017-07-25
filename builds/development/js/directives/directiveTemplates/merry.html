@@ -1,0 +1,86 @@
+
+
+
+<div class="container-fluid full" ng-class="{'item-horizontal': isVertical()}"> 
+
+ <div class="display-images">
+ 
+ 
+ <div class="display-images">
+<div class="image-viewer">   
+   <div ng-show="!isLoaded" class="image-not-loaded">
+  <i class="fa fa-refresh fa-3x fa-spin"></i>
+</div>  
+ 
+ <div ng-show="isLoaded" class="image-loaded">
+  <img imageonload="imageLoad()" class="loading image-loader" 
+  ng-src="https://vineyardsandbox.s3.amazonaws.com/Rob/merry/{{device}}.png"/>
+</div> 
+ </div>
+  <div class="device-selection">
+     
+      <button class="btn" 
+      ng-class="{'active': device === 'home'}"
+      ng-click="isMain()">Home</button>
+      
+      
+      <button class="btn" 
+      ng-class="{'active': device === 'recipes'}"
+      ng-click="isCategories()">Recipes</button>
+      
+      
+      <button class="btn" 
+      ng-class="{'active': device === 'calendar'}"
+      ng-click="isIngredients()">Calendar</button>
+      
+<!--      <a target="blank" href="https://www.vineyardcincinnati.com/index.php?vcpgid=nigeria-map"><button class="btn"><i class="fa fa-link"></i></button></a>-->
+      
+    </div>
+
+  <div>
+
+  <div class="description">
+    <p>Kroger's 25 Merry Days featured unique coupons each day for 25 days leading up to Christmas. The site saw much more traffic than anticipated and the decision to reveal upcoming coupons based on user research proved to be highly succesful in raising engagement.</p>
+  </div>
+  
+<div class="wrapper">  
+  
+  <div class="subHead" scroll>
+    <h1>Context</h1>
+    <p>In the second year of 25 Merry Days I had the luxury of being able to analyze qualitative and quantitative data from the previous year. Several key decisions were made around revealing and displaying daily coupons based on user input which helped lead to a nearly 10 fold increase in traffic from the previous year.</p>
+    <a href="http://share.framerjs.com/nshsm9c56ns3/" target="_blank">Daily Deals Prototype</a>
+  </div>
+  
+  
+<div class="row">  
+  
+  <div class="subHead <col-md-12>  2</col-md-12>" scroll>
+   
+    
+    <h1 class="float-margin">Responsibilites</h1>
+    <ul>
+      <li>UX Lead</li>
+    </ul>
+  </div>
+
+   <div id="technology" class="subHead" scroll>
+    <h1>Technology</h1>
+    <div class="gallery">
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/sketch.png" alt></div>
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/invision.png" alt></div>
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/framer.png" alt></div>
+
+    </div>
+  </div>
+
+
+
+
+    
+</div>
+ 
+  
+  
+
+</div>
+</div>

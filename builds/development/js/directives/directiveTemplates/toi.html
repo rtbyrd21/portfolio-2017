@@ -1,0 +1,86 @@
+
+
+
+<div class="container-fluid full" ng-class="{'item-horizontal': isVertical()}"> 
+
+ <div class="display-images">
+ 
+ 
+ <div class="display-images">
+<div class="image-viewer">   
+   <div ng-show="!isLoaded" class="image-not-loaded">
+  <i class="fa fa-refresh fa-3x fa-spin"></i>
+</div>  
+ 
+ <div ng-show="isLoaded" class="image-loaded">
+  <img imageonload="imageLoad()" class="loading image-loader" 
+  ng-src="https://vineyardsandbox.s3.amazonaws.com/Rob/toi/{{device}}.png"/>
+</div> 
+ </div>
+  <div class="device-selection">
+     
+      <button class="btn" 
+      ng-class="{'active': device === 'home'}"
+      ng-click="isMain()">Home</button>
+      
+      
+      <button class="btn" 
+      ng-class="{'active': device === 'ingredients'}"
+      ng-click="isCategories()">Ingredients</button>
+      
+      
+      <button class="btn" 
+      ng-class="{'active': device === 'meal-builder'}"
+      ng-click="isIngredients()">Meal Builder</button>
+      
+<!--      <a target="blank" href="https://www.vineyardcincinnati.com/index.php?vcpgid=nigeria-map"><button class="btn"><i class="fa fa-link"></i></button></a>-->
+      
+    </div>
+
+  <div>
+
+  <div class="description">
+    <p>Kroger's Taste of Italy Microsite aimed to inspire through authentic regional recipes and ingredients. A large portion of the campaign and UX was centered around the idea of "building an authentic 10 course meal".</p>
+  </div>
+  
+<div class="wrapper">  
+  
+  <div class="subHead" scroll>
+    <h1>Context</h1>
+    <p>Kroger was looking to expand and improve on their first iteration of "Taste of Italy". A key strategy was to brand themselves as an expert in food. A large feature of the site was the "Meal Builder" in which users could learn and create an authentic 10 course meal. This feature underwent several iterations of prototyping and user testing. </p>
+    <a href="http://share.framerjs.com/0sv3uf08tzvd/" target="_blank">Meal Builder Prototype</a>
+  </div>
+  
+  
+<div class="row">  
+  
+  <div class="subHead <col-md-12>  2</col-md-12>" scroll>
+   
+    
+    <h1 class="float-margin">Responsibilites</h1>
+    <ul>
+      <li>UX Lead</li>
+    </ul>
+  </div>
+
+   <div id="technology" class="subHead" scroll>
+    <h1>Technology</h1>
+    <div class="gallery">
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/sketch.png" alt></div>
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/invision.png" alt></div>
+      <div><img src="https://vineyardsandbox.s3.amazonaws.com/Rob/logos/framer.png" alt></div>
+
+    </div>
+  </div>
+
+
+
+
+    
+</div>
+ 
+  
+  
+
+</div>
+</div>
